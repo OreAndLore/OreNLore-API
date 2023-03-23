@@ -15,7 +15,7 @@ public class HexColors {
         return translate(HEX_PATTERN, message, OreNLore.getInstance());
     }
 
-    public static String translateHexCodes(String startTag, String endTag, String message, Essential plugin) {
+    public static String translateHexCodes(String startTag, String endTag, String message, OreNLore plugin) {
         Pattern hexPattern = Pattern.compile(startTag + "([a-f0-9]{6})" + endTag);
         return translate(hexPattern, message, plugin);
     }
