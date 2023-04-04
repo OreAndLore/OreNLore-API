@@ -1,5 +1,7 @@
 name: Api
 version: '${project.version}'
-main: net.oreandlore.api.Api
+main: net.oreandlore.api.OreNLore
 api-version: 1.19
 authors: [ InsideIntel ]
+loadbefore:
+  - Essential

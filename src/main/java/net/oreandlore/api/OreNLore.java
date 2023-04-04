@@ -15,6 +15,7 @@ public final class OreNLore extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        instance = this;
         if (!langFile.exists()) saveResource("lang.yml", false);
 
 

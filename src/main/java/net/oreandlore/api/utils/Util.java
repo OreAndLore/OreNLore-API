@@ -9,5 +9,5 @@ public class Util {
     public static final Util_Player PLAYER = new Util_Player();
     public static final Util_Item ITEM = new Util_Item();
     public static final Util_Gui GUI = new Util_Gui();
-    public static final Util_Lang LAND = new Util_Lang();
+    public static final Util_Lang LANG = new Util_Lang();
 }
