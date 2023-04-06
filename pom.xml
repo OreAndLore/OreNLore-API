@@ -6,10 +6,10 @@
 
     <groupId>net.oreandlore</groupId>
     <artifactId>api</artifactId>
-    <version>1.3-API</version>
+    <version>1.4-API</version>
     <packaging>jar</packaging>
 
-    <name>Api</name>
+    <name>OreNLore-API</name>
 
     <properties>
         <java.version>17</java.version>
